@@ -1,0 +1,1133 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #5e5d5d;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a{text-decoration: none;}
+li{list-style: none;}
+
+.margin-c{
+  width: 90%;
+   max-width: 1132px;
+  margin: 0 auto;
+}
+img{display: block;}
+
+
+
+/* 모바일------------------------------------- */
+
+/* #header-wrap{
+  width: 100%;
+  max-width: 100%;
+  height: 831px;
+  background: url(../img/slide2.jpg)  no-repeat center;
+  background-size: cover ;
+}      태블릿 pc용---------*/
+
+
+
+
+
+#header-wrap2{
+   width: 100%;
+  max-width: 100%;
+  height: 831px;
+  background: url(../img/slide-m2.jpg)  no-repeat center;
+  background-size: cover ;
+}
+
+body{background-color: #fdcccc;}
+
+
+/* header영역 */
+
+header{
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+
+header h1{}
+header h1 a{}
+header h1 a img{
+  width: 70%;
+}
+
+
+/* 메인 가운데 텍스트 */
+
+header .text{
+  position: absolute;
+  top: 200px; left: 0px; right: 0; margin: auto;
+}
+header .text p{}
+header .text .text-p-1{
+  padding: 10px 0;
+  font-weight: 200;
+  color: #799A77;
+}
+header .text .text-p-2{
+   font-family: "Gmarket Sans TTF", sans-serif;
+  font-size: 2.50em;  /*50px*/
+  font-weight: 200;
+  color: #799A77;
+}
+header .text .text-p-3{
+ 
+  font-weight: 100;
+  padding: 10px 0;
+   font-family: "Gmarket Sans TTF", sans-serif;
+   margin-top: 5px;
+   color: #707070;
+}
+header .text .text-p-4{
+  width: 80px;
+  height: 26px;
+  border: 1px solid #a1a1a1;
+   position: absolute;
+  top: 250px; 
+  text-align: center;
+  line-height: 26px;
+}
+header .text .text-p-4 a{
+   font-family: "Gmarket Sans TTF", sans-serif;
+   font-weight: 100;
+  
+   font-size: 0.75em; /*12px*/
+   
+}
+
+header .text .text-p-4:hover{
+  background-color: #c2d3c7;
+   width: 80px;
+  height: 26px;
+  border: none;
+  color: #fff;
+
+}
+
+
+/* 메뉴 */
+
+header nav{
+  width: 100%;
+  height: 250px;
+  /* background-color:  rgba(96, 125, 139, 0.6); */
+  position: absolute;
+  top: 80px;
+  z-index: 10;
+ 
+}
+header nav .gnb{
+ background-color:  rgba(100, 136, 155, 0.9);
+  /* display: none; */
+}
+header nav .gnb li{
+padding: 20px 40px 15px;
+  height: 50px;
+  border-bottom: 1px solid #a9b1b8;
+ 
+
+}
+header nav .gnb li a{
+  color: #fff;
+  display: block;
+  font-size: 0.88em; /*14px*/
+}
+
+header nav .gnb li:hover a{
+  color: #ffefc5;
+ 
+}
+
+header .menu-toggle-btn{
+  width:30px;
+  height: 20px;
+  text-indent: -9999999999999px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  cursor: pointer;
+}
+header .menu-toggle-btn span{
+  width: 100%;
+  height: 3px;
+  background-color: #9ba79b;
+  display: block;
+}
+
+
+
+
+/* Keyword 텍스트------------- */
+.Keyword{
+  width: 400px;
+  text-align: center;
+  margin: 80px auto 50px;
+}
+ 
+.Keyword h2{
+ font-family: Gmarket Sans TTF;
+ font-weight: 100;
+ color: #799A77;
+ padding-bottom: 20px;
+}
+.Keyword ul{
+  display: flex;
+  justify-content: space-between;
+  
+ 
+}
+.Keyword ul li{
+   font-family: Gmarket Sans TTF;
+    font-weight: 100;
+    color: #799A77;
+     padding: 7px 0;
+}
+.Keyword ul li a{
+  font-family: Gmarket Sans TTF;
+  color: #fff;
+}
+.Keyword ul .box{
+ padding: 0 10px;
+  height: 30px;
+  background-color: #799A77;
+  display: block;
+  line-height: 30px;
+  border-radius: 5px;
+
+}
+
+.Keyword ul li:hover a{
+  opacity: 0.5;
+}
+
+
+/* 키워드 사진 영역------------------ */
+.Keyword-Picture{
+  width: 100%;
+  
+}
+
+.Keyword-Picture ul li{
+  position: relative;
+}
+.Keyword-Picture ul li a{}
+.Keyword-Picture ul li a img{
+  width: 100%;
+  
+}
+
+.Keyword-Picture ul li a:hover img{
+  opacity: 0.5;
+}
+
+.Keyword-Picture-text{
+  position: absolute;
+  top: 90px; left: 10px; right: 0; margin: auto;
+  font-family: Gmarket Sans TTF;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.56em; /*25px*/
+  text-shadow: 0 1px 6px #404642;
+}
+
+
+
+
+/* 리뷰텍스트  영역 --------------- */
+.text-box{
+  margin-top: 100px;
+  width: 100%;
+  height: 160px;
+  background-color: #F0F0E8;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.text-box p{
+  font-family: Gmarket Sans TTF;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 70px 0 30px;
+}
+.text-box p span{
+   font-family: Gmarket Sans TTF;
+  font-weight: 500;
+  color: #799A77;
+}
+
+
+
+/* 리뷰사진  영역 --------------- */
+.Review{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto 100px;
+}
+.Review ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+     padding: 10px 5px 5px 0;
+}
+
+.Review ul li{
+   width: 50%;
+   position: relative;
+   padding: 5px;
+
+}
+.Review ul li .Review-text{
+  position: absolute;
+  top: 20px; left: 10px;
+  
+
+}
+.Review ul li .Review-text h3{
+color: #fff;
+text-shadow: 0 0.5px 3px #404642;
+font-weight: 200;
+ font-family: Gmarket Sans TTF;
+}
+.Review ul li .Review-text p{
+  font-weight: 400;
+  font-size: 12px;
+  width: 90%;
+   font-family: Gmarket Sans TTF;
+   color: #fff;
+text-shadow: 0 0.5px 3px #404642;
+padding-top: 5PX;
+}
+
+
+.Review ul li a{}
+.Review ul li a img{
+ width: 100%;
+ transition: all 0.3s;
+ 
+}
+.Review ul li a:HOVER img{
+  filter: grayscale(100%);
+}
+
+
+/* 중간선 1번-------------- */
+.Review::after
+{
+  content: "";
+  display: block;
+  width: 30%;
+  margin: 0 auto 50px;
+  position: relative;
+  top: 80px;
+  background-color: #799A77;
+  height: 1px;
+}
+.youtu::after
+{
+  content: "";
+  display: block;
+  width: 30%;
+  margin: 0 auto 50px;
+  position: relative;
+  top: 30px;
+  background-color: #799A77;
+  height: 1px;
+}
+
+
+/* 유튜브-------------------------- */
+.youtu{
+    width: 70%;
+  text-align: center;
+  margin: 30px auto 50px;
+  
+}
+
+.youtu h2{
+ 
+   font-family: Gmarket Sans TTF;
+ font-weight: 100;
+ color: #799A77;
+ padding-bottom: 10px;
+}
+.youtu p{
+   /* font-family: Gmarket Sans TTF; */
+    font-weight: 100;
+    color: #799A77;
+    padding: 0 0 20px;
+}
+
+
+.youtu video{
+  width: 90%;
+  max-width: 90%;
+ 
+  margin: 20px auto 4px;
+}
+
+
+
+
+/* 추천상품 영역  -------------- */
+
+.best{
+  width: 100%;
+  max-width: 100%;
+
+ 
+}
+.best h2{
+  text-align: center;
+  padding-top: 100px;
+     font-family: Gmarket Sans TTF;
+ font-weight: 100;
+ color: #799A77;
+ padding-bottom: 40px;
+}
+.best ul{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+ 
+  
+}
+.best ul li{
+  width: 50%;
+}
+.best ul li a{
+position: relative;
+}
+
+.best ul li a::before{
+  content: "";
+  background-color: #fff2d4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; left: 0;
+  opacity: 0;
+
+}
+
+ .best ul li a:hover::before{
+    opacity: 0.8;
+  }
+
+
+
+
+.best ul li a .best-info{
+  width: 170px;
+  height: 170px;
+  background-color: rgba(95, 117, 98, 0.6);
+  position: absolute;
+  top: 0; left: 0; right: 0; margin: auto;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s;
+ 
+
+
+}
+
+.best ul li a:hover .best-info{
+    top:50px; left: 0; right: 0; margin: auto;
+   
+    opacity: 1;
+    transform:translateY(20px) ;
+}
+
+
+.best ul li a .best-info h3{
+  color: #fff;
+  padding-top: 15px;
+  width: 90%;
+  text-align: center;
+  text-shadow: 0 0.5px 2px #748d7c;
+  font-weight: 100;
+}
+.best ul li a .best-info span{
+   color: #fff;
+  padding-top: 15px;
+   text-shadow: 0 0.5px 2px #748d7c;
+   font-size: 13px;
+   font-family: "Gmarket Sans TTF", sans-serif;
+   font-weight: 200;
+   
+}
+.best ul li a .best-info p{
+   color: #fff;
+  padding-top: 15px;
+   text-shadow: 0 0.5px 2px #748d7c;
+}
+
+.best ul li a img{
+  width: 100%;
+  
+ 
+}
+
+/* 3번째 선 */
+.hr-3{
+  width: 30%;
+  margin: auto;
+  margin-top: 120px;
+ 
+ 
+}
+
+
+/* diy-text------------------ */
+.diy-text{
+  text-align: center;
+ padding-top: 20px;
+}
+.diy-text h2{
+     font-family: Gmarket Sans TTF;
+ font-weight: 100;
+ color: #799A77;
+ padding-bottom: 10px;
+}
+.diy-text p{
+     font-weight: 100;
+    color: #799A77;
+    padding: 0 0 100px;
+}
+
+
+.diy-box{
+  width: 100%;
+  
+}
+.diy-box .diy-content{}
+.diy-box .diy-content h3{
+  color: #a1a1a1;
+  font-weight: 300;
+}
+.diy-box .diy-content img{
+    width: 100%;
+  max-width: 100%;
+}
+.diy-box .diy-content h4{
+margin-top: 20px;
+       font-family: Gmarket Sans TTF;
+ font-weight: 100;
+ color: #ffffff;
+line-height: 30px;
+ font-size: 20px;
+ width: 250px;
+ height: 30px;
+ background-color: #799A77;
+ margin-left: 5px;
+
+ padding-left: 5px;
+}
+.diy-box .diy-content p{
+         font-family: Gmarket Sans TTF;
+ font-weight: 100;
+  width: 90%;
+  line-height: 1.4;
+ padding-bottom: 10px;
+  margin-left: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+ 
+}
+.diy-box .diy-content .diy-content-p{
+   width: 90px;
+ height: 30px;
+ background-color: #799A77;
+ margin-left: 5px;
+ color: #fff;
+ line-height: 30px;
+ text-align: center;
+ cursor: pointer;
+}
+
+
+/* hr-4  4번째 선 */
+.hr-4{
+     
+      width: 30%;
+     margin: auto;
+     margin-top: 120px;
+  
+}
+
+
+
+/* md-pick--------------------- */
+
+.diy-box .md-pick{
+  margin-top: 10px;
+  text-align: center;
+}
+.diy-box .md-pick p{
+  margin-bottom: 5px;
+}
+.diy-box .md-pick h3{
+  font-family: "Gmarket Sans TTF", sans-serif;
+   color: #799A77;
+   font-weight: 500;
+}
+
+
+
+
+
+.diy-box .md-pick ul{
+  display: flex;
+  justify-content: center;
+  
+}
+.diy-box .md-pick ul li{
+  padding:3%;
+}
+.diy-box .md-pick ul li a{
+  text-align: center;
+  font-size: 13px;
+}
+.diy-box .md-pick ul li a img{
+  width: 100%;
+  max-width: 100%;
+}
+.diy-box .md-pick ul li a h5{
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+
+.diy-box .md-pick ul li a:hover img{
+  opacity: 0.2;
+}
+
+
+
+
+/* Candle & Diffuser ------------------ */
+
+.Candle{
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+
+.Candle .Candle-p{}
+.Candle .Candle-p img{
+  width: 80%;
+  max-width: 80%;
+
+  position: absolute;
+  top: 25px; left: 0; right: 0;  margin: auto;
+}
+.Candle-bg{
+  background-color: #E0E0CE;
+  width: 100%;
+  max-width: 100%;
+  height:65vw;
+  
+}
+
+.Candle .Candle-text{
+  margin: 20px 0 10px 30px;
+  width: 90%;
+}
+.Candle .Candle-text h3{
+    color: #799A77;
+   font-weight: 500;
+   font-size: 20px;
+
+}
+.Candle .Candle-text p{
+     font-weight: 300;
+   font-size: 13px;
+}
+.Candle .Candle-text .Candle-text-p{
+  margin-top: 15px;
+     width: 90px;
+ height: 25px;
+border:1px solid #799A77;
+ margin-left: 5px;
+ color: #fff;
+ line-height: 25px;
+ text-align: center;
+ cursor: pointer;
+  color: #799A77;
+}
+
+.Candle-text-p:hover{
+  background-color: #dbe9e0;
+}
+
+
+/* 인스타그램----------- */
+.instagram{
+  width: 100%;
+  margin-top: 150px;
+
+}
+.instagram h3{
+     color: #799A77;
+   font-weight: 500;
+   font-size: 20px;
+   margin: 20px 0 10px 30px;
+
+}
+.instagram ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+.instagram ul li{
+  padding: 3px;
+}
+
+.instagram ul li a{
+  width: 50%;
+}
+.instagram ul li a img{
+  width: 100%;
+}
+
+.instagram ul li a img:hover{
+  opacity: 0.5;
+}
+
+
+
+
+
+/* 푸터영역-------------- */
+footer{
+  margin-top: 250px;
+  width: 100%;
+  height: 400px;
+  background-color: #d9dfd9;
+  text-align: center;
+}
+.link{
+  width: 100%;
+  height: 100px;
+
+
+}
+.link ul{
+  display: flex;
+  background-color:#cdd8cd;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+
+ 
+}
+
+.link ul li a{
+
+    font-family: "Gmarket Sans TTF", sans-serif;
+    font-weight: 300;
+     font-size: 0.5em;
+  
+    
+}
+
+.link ul li a::after{
+  content: "|";
+  padding: 0 10px; 
+}
+
+.link ul li:last-child a::after{
+  content: "";
+  padding: 0;
+}
+
+
+.logo2{
+  width: 100px;
+  margin: 30px auto 0;
+  margin-bottom: 80px;
+}
+.logo2 img{
+  width: 70px;
+}
+
+
+
+.copy{
+  text-align: center;
+}
+.copy address{
+  font-style: normal;
+   font-size: 0.5em;
+  font-weight: 200;
+  font-family: "Gmarket Sans TTF", sans-serif;
+  line-height: 1.6;
+}
+.copy p{
+  font-family: "Gmarket Sans TTF", sans-serif;
+  font-size: 0.5em; /*12px*/
+  font-weight: 200;
+  line-height: 1.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 태블릿------------------------------------- */
+@media all and (min-width :768px){
+  body{background-color: #e2f7d8;}
+
+
+  header nav{
+    position: static;
+    
+    height: 30px;
+  }
+
+  header nav .gnb{
+    background: none;
+   margin-top: 15px;
+    align-items: center;
+    display: flex !important;
+    justify-content: flex-start;
+    margin-left: 20px;
+    /* background-color: #fff; */
+    
+  
+    
+  }
+
+  header nav .gnb li{
+    padding: 0;
+      border-bottom: none;
+  }
+  header nav .gnb li a{
+    padding: 0 15px;
+    height: 50px;
+    color: #647269; 
+  }
+
+  header nav .gnb li:hover a{
+  color: #799A77;
+  text-decoration: underline;
+ 
+}
+
+
+  header .menu-toggle-btn{
+    display: none;
+  }
+
+
+
+
+/* 태블릿--------Keyword 텍스트------------- */
+
+.Keyword{
+  width: 500px;
+}
+.Keyword h2{
+ padding-bottom: 50px;
+}
+
+
+
+
+/* 태블릿--------키워드 사진 영역------------------ */
+
+.Keyword-Picture ul{
+  display: flex;  
+}
+
+.Keyword-Picture-text{
+    top: 220px; left: 10px; right: 0; margin: auto;
+    font-size: 1.13em; /*18px*/
+}
+
+
+
+
+/* 태블릿--------유튜브 영역 */
+
+  .youtu{
+    position: relative;
+    padding-bottom: 56.25%;
+   
+
+      /* (9 ÷ 16) × 100 =  56.25%*/
+      
+      height: 0;
+      overflow: hidden;
+  }
+
+ .youtu video{
+   width: 100%;
+   max-width: 100%;
+   
+      position: absolute;
+       top: 0; left: 0;
+      height: 100%;
+ }
+
+  
+
+ /* 태블릿--------유튜브위에 아래 선 */
+.youtu::after
+{
+  content: "";
+  display: block;
+  width: 30%;
+  margin: 0 auto 50px;
+  position: relative;
+  top: 550px;
+  background-color: #799A77;
+  height: 1px;
+}
+
+
+
+
+} /*태블릿 end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PC------------------------------------- */
+@media all and (min-width :960px){
+body{background-color: #ffffff;} 
+
+
+
+/* pc nav */
+
+
+header nav .gnb li a{
+  font-size: 1.06em; /*17px*/
+}
+
+
+/* pc 메인사진 텍스트 */
+header .text{
+  top: 250px; left: 10px;
+}
+header .text .text-p-1{}
+header .text .text-p-2{
+  display: none;
+}
+header .text .text-p-2-2{
+     font-family: "Gmarket Sans TTF", sans-serif;
+  font-size: 2.50em;  /*50px*/
+  font-weight: 200;
+  color: #799A77;
+}
+header .text .text-p-3{}
+header .text .text-p-4{
+  top: 180px;
+}
+
+
+
+/* 키워드 */
+.Keyword-Picture{
+  width: 100%;
+  max-width: 1132px;
+  margin: auto;
+}
+
+
+/* 키워드 글씨 */
+
+.Keyword-Picture-text{
+    top: 20px; left: 10px; right: 0; margin: auto;
+}
+
+
+
+
+/* PC---리뷰사진  영역------- */
+
+.Review{
+  width: 100%;
+  max-width: 1132px;
+  margin: auto;
+ 
+}
+.Review ul{
+  padding: 0;
+}
+.Review ul li{
+ 
+  width: 25%;
+}
+.Review ul li a{
+  width: 25%;
+}
+.Review ul li a img{
+  width: 100%;
+  margin-bottom: 130px;
+  
+}
+
+
+.Review ul li .Review-text h3{
+  width: 70%;
+}
+
+.Review ul li .Review-text p{
+  font-weight: 200;
+  padding: 0;
+  text-shadow: 0 0.5px 2px #414141;
+}
+
+
+
+
+ /* pc--------유튜브위에 아래 선 */
+.youtu::after
+{
+  content: "";
+  display: block;
+  width: 30%;
+  margin: 0 auto 50px;
+  position: relative;
+  top: 700px;
+  background-color: #799A77;
+  height: 1px;
+}
+
+
+
+
+/* 유튜브 */
+.youtu{
+    width: 70%;
+    max-width: 900px;
+  text-align: center;
+  margin: 30px auto 50px;
+}
+
+
+ /* pc--------추천상품. */
+
+.best{
+  width: 100%;
+  max-width: 1132px;
+  margin: auto;
+}
+.best h2{
+  font-size: 28px;
+}
+.best ul{
+   margin-bottom: 100px;
+}
+.best ul li{
+  width: 25%;
+}
+.best ul li a{}
+.best ul li a img{
+ 
+
+}
+
+
+ /* pc--------diy content */
+
+ .diy-box{
+  display: flex;
+  width: 100%;
+  max-width: 1132px;
+  margin: auto;
+ }
+ .diy-box .diy-content{
+  width: 50%;
+ }
+ .diy-box .diy-content h3{}
+ .diy-box .diy-content img{}
+ .diy-box .diy-contenth4{}
+ .diy-box .diy-content p {}
+
+
+ .diy-box .md-pick{
+  width: 50%;
+  margin-top: 50px;
+ }
+
+
+/* 4번째선 */
+.hr-4{
+  display: none;
+}
+
+
+
+
+/* pc---Candle & Diffuser ------------------ */
+
+.Candle .Candle-p img{
+  width: 500px;
+  top: 45px;
+}
+
+.Candle-bg{
+  height: 500px;
+}
+.Candle .Candle-text{
+  margin: 0 0 0 100px;
+  width: 60%;
+
+}
+
+
+}/*pc end*/
